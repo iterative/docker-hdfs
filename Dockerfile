@@ -61,5 +61,5 @@ EXPOSE 50090
 CMD service ssh start \
   && start-dfs.sh \
   && hadoop-daemon.sh start portmap \
-  && hadoop-daemon.sh start nfs3 \
+#  && hadoop-daemon.sh start nfs3 \
   && sleep infinity
